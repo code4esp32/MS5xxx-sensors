@@ -11,7 +11,7 @@ NOTE: There's a range of MS5803_xx sensors with different pressure ranges. This 
 You can run this code with other sensors provided that you modify correction parameters in accordance with the datasheet for your sensor.
 The algorythm remains the same.
 
-PS. Moreover, I has a short look over MS5611 datasheet and it's likely the same algorythm applies as well.
+PS. Moreover, I had a short look over MS5611 datasheet and it's likely the same algorythm applies as well.
 
 Feel free to use in any way whatsoever. 
 
