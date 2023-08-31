@@ -7,7 +7,7 @@ DISCLAIMER: This code is for those who:
 - can read and understand datasheets
 - code native ESP-IDF FreeRTOS applications
 
-NOTE: There's a range of MS5803_xx sensors with different pressure range. This code uses correction coefficients applicable for _01BA series only!
+NOTE: There's a range of MS5803_xx sensors with different pressure ranges. This code uses correction coefficients applicable for _01BA series only!
 You can run this code with other sensors provided that you modify correction parameters in accordance with the datasheet for your sensor.
 the algorythm remains the same.
 
