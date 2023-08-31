@@ -34,7 +34,6 @@
 
 extern bool ms5803_Init(i2c_port_t, uint8_t, int16_t, int16_t, uint32_t);
 extern bool ms5803_Reset(void);
-extern bool ms5803_ReadProm(void);
 extern bool ms5803_getSensors(uint8_t, float *, float*);
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
