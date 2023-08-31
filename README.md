@@ -6,4 +6,4 @@ DISCLAIMER: This code is for those who:
 - can read and understand datasheets
 - code native ESP-IDF FreeRTOS applications
 
-Feel free to use in any way desired. 
+Feel free to use in any way whatsoever. 
