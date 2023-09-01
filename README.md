@@ -1,4 +1,4 @@
-This demo code demonstrates the usage of two sensors (MS5611 and MS5803_01BA) along with ESP32 (ESP-IDF) in the FreeRTOS environment.
+This code demonstrates the usage of two sensors (MS5611 and MS5803_01BA) along with ESP32 (ESP-IDF) in the FreeRTOS environment.
 
 The sample code (main.c) shows how to create a driver for either or both of the sensors, read temperature and pressure values and delete the driver(s). The two sensors are wired to the same I2C bus on my breadboard and use default addresses (MS5611 = 0x77, MS5803 = 0x76).
 
