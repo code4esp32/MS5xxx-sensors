@@ -38,12 +38,12 @@
 #define FLIP_ENDIAN16(x) (((uint16_t)(x) >> 8) | ((uint16_t)(x) << 8))
 
 typedef struct{
-	uint8_t				sensor_type;	// тип датчика
-	i2c_port_t			i2c;			// номер I2C порта
-	uint8_t				addr;			// адрес датчика
-	uint16_t			prom[8];		// 8 слов настроечных регистров PROM датчика
-	esp_timer_handle_t	hTimer;		// Ресурсы для таймера точной задержки
-	SemaphoreHandle_t	hSemaphore;	// Ресурсы для таймера точной задержки
+	uint8_t				sensor_type;	// тип датчика // type of sensor
+	i2c_port_t			i2c;			// номер I2C порта // I2C port num
+	uint8_t				addr;			// адрес датчика // sensor address
+	uint16_t			prom[8];		// 8 слов настроечных регистров PROM датчика // calibration data (8 words)
+	esp_timer_handle_t	hTimer;		// Ресурсы для таймера точной задержки // hi-resolution timer for delay
+	SemaphoreHandle_t	hSemaphore;	// Ресурсы для таймера точной задержки // semaphore to syncronize out of callback 
 }MS5xxx_HANDLE;
 
 
