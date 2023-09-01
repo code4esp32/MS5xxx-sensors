@@ -1,5 +1,5 @@
-#ifndef MAIN_MS5611_H_
-#define MAIN_MS5611_H_
+#ifndef MAIN_MS5XXX_H_
+#define MAIN_MS5XXX_H_
 
 #include "esp_timer.h"
 
